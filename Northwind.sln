@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4051B46-4B6D-4849-BA1B-4C583E569B7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07EFE78F-5EB1-4B85-9625-365BD5D4E85D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Northwind.web", "src\Northwind.web\Northwind.web.xproj", "{7E58A03C-6721-40FD-8430-530C6E2E8E59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E58A03C-6721-40FD-8430-530C6E2E8E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E58A03C-6721-40FD-8430-530C6E2E8E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E58A03C-6721-40FD-8430-530C6E2E8E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E58A03C-6721-40FD-8430-530C6E2E8E59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E58A03C-6721-40FD-8430-530C6E2E8E59} = {E4051B46-4B6D-4849-BA1B-4C583E569B7C}
+	EndGlobalSection
+EndGlobal
